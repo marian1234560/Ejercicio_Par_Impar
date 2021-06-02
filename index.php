@@ -23,8 +23,8 @@
                         $resultado = $_GET['paroimpar'];
                         $num = $_GET['numero'];
                         echo '<div class="alert alert-success" role="alert">
-                        El numero '.$num. ' ingresado es '.$resultado.
-                    '</div>';
+                        El numero ' . $num . ' ingresado es ' . $resultado .
+                            '</div>';
                     } else {
                         echo '<div class="alert alert-danger" role="alert">
                         No ha ingresado un numero
@@ -36,7 +36,7 @@
                     <div class="form-group">
                         <input type="text" class="form-control" id="number" name="number" aria-describedby="number" placeholder="Digite el numero">
                     </div>
-                    
+
                     <button type="submit" class="btn btn-outline-dark">Comprobar</button>
                 </form>
             </div>
